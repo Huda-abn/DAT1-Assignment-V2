@@ -267,11 +267,14 @@ member_id | first_name | last_name | registration_count
 
 ---
 
-#### 1.6. Calculate the percentage of members who have attended at least two classes
-
-**Task**: Calculate the percentage of members who have attended at least two classes
-
-**Output**: A single value representing the percentage.
+#### 1.6. Count the total number of members who have attended at least two classes
+ 
+ **Task**: Count the total number of members who have attended at least two classes
+ 
+ **Output**: A single value representing the count.
+ ```plaintext
+ Count
+ ```
 
 
 ### 2. Payment Management (payment_management.sql)
@@ -549,9 +552,9 @@ Use this as a checklist to keep track of your progress.
 1. [ ] 1.1 Retrieve all members
 2. [ ] 1.2 Update a member's contact information
 3. [ ] 1.3 Count total number of members
-4. [ ] 1.4  Find member with the most class registrations
+4. [ ] 1.4 Find member with the most class registrations
 5. [ ] 1.5 Find member with the least class registrations
-6. [ ] 1.6 Calculate the percentage of members who have attended at least one class
+6. [ ] 1.6 Count the total number of members who have attended at least two classes
 
 #### 2. Payment Management (payment_management.sql)
 1. [ ] 2.1 Record a payment for a membership
