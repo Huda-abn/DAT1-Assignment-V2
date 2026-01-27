@@ -603,7 +603,7 @@ To run any `.sql` file with `sqlite3`, you can:
 1. Ensure your `.sql` file opens a database using the `.open` statement.
 2. Open a terminal and use the `sqlite3` command-line tool from the root directory:
    ```sh
-   sqlite3 <name-of-database>.db < <path-to-file>.sql
+   sqlite3 [name-of-database].db < [path-to-file].sql
    ```
 3. Check the query output when you run the command.
 
