@@ -295,7 +295,7 @@ member_id | first_name | last_name | registration_count
 
 ---
 
-#### 2.2. Calculate total revenue from membership fees for each month of the last year
+#### 2.2. Calculate total revenue from membership fees for specified period
 
 **Task**: Calculate total revenue from membership fees for each month of the 4 months (from November 2024 - Feb 2025)
 
@@ -320,10 +320,10 @@ payment_id | amount | payment_date | payment_method |
 ---
 
 #### 3.1. Find equipment due for maintenance in the next 30 days
-
-**Task**: List all equipment with next_maintenance_date in the next 30 days
-
-**Output**: A result set with columns:
+ 
+ **Task**: Find equipment due for maintenance in the next 30 days from '2025-01-01'
+ 
+ **Output**: A result set with columns:
 
 ```plaintext
 equipment_id | name | next_maintenance_date
@@ -397,13 +397,13 @@ class_id | name | start_time | end_time | available_spots
 
 ---
 
-#### 4.5. List top 3 most popular classes
+#### 4.5. Display most popular classes
 
-**Task**: List the top 3 most popular classes by registration count
+**Task**: Show the most popular classes by registration count
 
 **Details**: "Registered" classes
 
-**Output**: A result set with columns:
+**Output**: A result set with columns and a single record:
 
 ```plaintext
 class_id | class_name | registration_count
@@ -446,9 +446,9 @@ membership_type | avg_visit_duration_minutes
 
 ---
 
-#### 5.3. Identify members with expiring memberships this year
-
-**Task**: List members whose memberships will expire within the next year
+#### 5.3. Identify members with expiring memberships in 2025
+ 
+ **Task**: List members whose memberships will expire in 2025
 
 **Output**: A result set with columns:
 
@@ -466,7 +466,7 @@ member_id | first_name | last_name | email | end_date
 
 **Details**:
 - **Location**: Downtown Fitness (location_id 1)
-- **Check-in time**: Current date and time
+- **Check-in time**: '2025-02-14 16:30:00'
 
 **Output**: No result set. Affects 1 row in attendance table.
 
@@ -521,9 +521,9 @@ staff_id | first_name | last_name | role
 
 ---
 
-#### 7.2. Find trainers with one or more personal training session in the next 30 days
-
-**Task**: Find trainers with one or more personal training session in the next 30 days
+#### 7.2. Find trainers with one or more personal training session in the upcoming month
+ 
+ **Task**: Find trainers with one or more personal training session in the next 30 days from '2025-01-20'
 
 **Output**: A result set with columns:
 
